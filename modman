@@ -1,0 +1,3 @@
+src/app/etc/modules/*                                   app/etc/modules/
+src/app/code/community/Zookal/FixFormKey                app/code/community/Zookal/FixFormKey
+src/app/code/community/Mage/Core/Block/Abstract.php     app/code/community/Mage/Core/Block/Abstract.php
