@@ -6,7 +6,7 @@ This module solves the issue where the form key will be cached in a block.
 This modules creates a placeholder in the cached block and replaces later the placeholder
 with the correct form key. The same replacement as with the session ID.
 
-The modifications has been done in `Mage_Core_Block_Abstract` with its methods `_loadCache()`
+The modifications have been done in `Mage_Core_Block_Abstract` with its methods `_loadCache()`
 and `_saveCache()`. The placeholder is generated in `_getFormKeyPlaceholder()`. Another solution is not possible.
 
 ## Compatible only with Magento CE >= 1.8 and EE >= 1.13
