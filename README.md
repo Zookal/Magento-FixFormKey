@@ -11,6 +11,7 @@ and `_saveCache()`. The placeholder is generated in `_getFormKeyPlaceholder()`. 
 
 ## Compatible only with Magento CE >= 1.8 and EE >= 1.13
 
+Code quality of this core file: [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Zookal/Magento-FixFormKey/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Zookal/Magento-FixFormKey/?branch=master)
 
 Install
 -------
@@ -19,6 +20,7 @@ Please use modman or composer.org
 
 License
 -------
+
 [OSL - Open Software Licence 3.0](http://opensource.org/licenses/osl-3.0.php)
 
 Copyright
