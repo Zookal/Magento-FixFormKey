@@ -1485,6 +1485,16 @@ abstract class Mage_Core_Block_Abstract extends Varien_Object
     }
 
     /**
+     * Checks is request Url is secure
+     *
+     * @return bool
+     */
+    protected function _isSecure()
+    {
+        return $this->_getApp()->getFrontController()->getRequest()->isSecure();
+    }
+
+    /**
      * Get FormKey placeholder for cache
      *
      * @param null|string $cacheKey
